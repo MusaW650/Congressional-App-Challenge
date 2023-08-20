@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C642BE2E25311A56008CE46A /* Pensando_GobiernoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642BE2D25311A56008CE46A /* Pensando_GobiernoApp.swift */; };
+		C642BE3025311A56008CE46A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642BE2F25311A56008CE46A /* ContentView.swift */; };
+		C642BE3225311A5A008CE46A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C642BE3125311A5A008CE46A /* Assets.xcassets */; };
+		C642BE3525311A5A008CE46A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C642BE3425311A5A008CE46A /* Preview Assets.xcassets */; };
+		C642BE4025311A5A008CE46A /* Pensando_GobiernoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642BE3F25311A5A008CE46A /* Pensando_GobiernoTests.swift */; };
+		C642BE4B25311A5A008CE46A /* Pensando_GobiernoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642BE4A25311A5A008CE46A /* Pensando_GobiernoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C642BE3C25311A5A008CE46A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C642BE2225311A56008CE46A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C642BE2925311A56008CE46A;
+			remoteInfo = "Pensando Gobierno";
+		};
+		C642BE4725311A5A008CE46A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C642BE2225311A56008CE46A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C642BE2925311A56008CE46A;
+			remoteInfo = "Pensando Gobierno";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C642BE2A25311A56008CE46A /* Pensando Gobierno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pensando Gobierno.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C642BE2D25311A56008CE46A /* Pensando_GobiernoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pensando_GobiernoApp.swift; sourceTree = "<group>"; };
+		C642BE2F25311A56008CE46A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C642BE3125311A5A008CE46A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C642BE3425311A5A008CE46A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C642BE3625311A5A008CE46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C642BE3B25311A5A008CE46A /* Pensando GobiernoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pensando GobiernoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C642BE3F25311A5A008CE46A /* Pensando_GobiernoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pensando_GobiernoTests.swift; sourceTree = "<group>"; };
+		C642BE4125311A5A008CE46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C642BE4625311A5A008CE46A /* Pensando GobiernoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pensando GobiernoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C642BE4A25311A5A008CE46A /* Pensando_GobiernoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pensando_GobiernoUITests.swift; sourceTree = "<group>"; };
+		C642BE4C25311A5A008CE46A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C642BE2725311A56008CE46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C642BE3825311A5A008CE46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C642BE4325311A5A008CE46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C642BE2125311A56008CE46A = {
+			isa = PBXGroup;
+			children = (
+				C642BE2C25311A56008CE46A /* Pensando Gobierno */,
+				C642BE3E25311A5A008CE46A /* Pensando GobiernoTests */,
+				C642BE4925311A5A008CE46A /* Pensando GobiernoUITests */,
+				C642BE2B25311A56008CE46A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C642BE2B25311A56008CE46A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C642BE2A25311A56008CE46A /* Pensando Gobierno.app */,
+				C642BE3B25311A5A008CE46A /* Pensando GobiernoTests.xctest */,
+				C642BE4625311A5A008CE46A /* Pensando GobiernoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C642BE2C25311A56008CE46A /* Pensando Gobierno */ = {
+			isa = PBXGroup;
+			children = (
+				C642BE2D25311A56008CE46A /* Pensando_GobiernoApp.swift */,
+				C642BE2F25311A56008CE46A /* ContentView.swift */,
+				C642BE3125311A5A008CE46A /* Assets.xcassets */,
+				C642BE3625311A5A008CE46A /* Info.plist */,
+				C642BE3325311A5A008CE46A /* Preview Content */,
+			);
+			path = "Pensando Gobierno";
+			sourceTree = "<group>";
+		};
+		C642BE3325311A5A008CE46A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C642BE3425311A5A008CE46A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C642BE3E25311A5A008CE46A /* Pensando GobiernoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C642BE3F25311A5A008CE46A /* Pensando_GobiernoTests.swift */,
+				C642BE4125311A5A008CE46A /* Info.plist */,
+			);
+			path = "Pensando GobiernoTests";
+			sourceTree = "<group>";
+		};
+		C642BE4925311A5A008CE46A /* Pensando GobiernoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C642BE4A25311A5A008CE46A /* Pensando_GobiernoUITests.swift */,
+				C642BE4C25311A5A008CE46A /* Info.plist */,
+			);
+			path = "Pensando GobiernoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C642BE2925311A56008CE46A /* Pensando Gobierno */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C642BE4F25311A5A008CE46A /* Build configuration list for PBXNativeTarget "Pensando Gobierno" */;
+			buildPhases = (
+				C642BE2625311A56008CE46A /* Sources */,
+				C642BE2725311A56008CE46A /* Frameworks */,
+				C642BE2825311A56008CE46A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pensando Gobierno";
+			productName = "Pensando Gobierno";
+			productReference = C642BE2A25311A56008CE46A /* Pensando Gobierno.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C642BE3A25311A5A008CE46A /* Pensando GobiernoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C642BE5225311A5A008CE46A /* Build configuration list for PBXNativeTarget "Pensando GobiernoTests" */;
+			buildPhases = (
+				C642BE3725311A5A008CE46A /* Sources */,
+				C642BE3825311A5A008CE46A /* Frameworks */,
+				C642BE3925311A5A008CE46A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C642BE3D25311A5A008CE46A /* PBXTargetDependency */,
+			);
+			name = "Pensando GobiernoTests";
+			productName = "Pensando GobiernoTests";
+			productReference = C642BE3B25311A5A008CE46A /* Pensando GobiernoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C642BE4525311A5A008CE46A /* Pensando GobiernoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C642BE5525311A5A008CE46A /* Build configuration list for PBXNativeTarget "Pensando GobiernoUITests" */;
+			buildPhases = (
+				C642BE4225311A5A008CE46A /* Sources */,
+				C642BE4325311A5A008CE46A /* Frameworks */,
+				C642BE4425311A5A008CE46A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C642BE4825311A5A008CE46A /* PBXTargetDependency */,
+			);
+			name = "Pensando GobiernoUITests";
+			productName = "Pensando GobiernoUITests";
+			productReference = C642BE4625311A5A008CE46A /* Pensando GobiernoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C642BE2225311A56008CE46A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C642BE2925311A56008CE46A = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					C642BE3A25311A5A008CE46A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = C642BE2925311A56008CE46A;
+					};
+					C642BE4525311A5A008CE46A = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = C642BE2925311A56008CE46A;
+					};
+				};
+			};
+			buildConfigurationList = C642BE2525311A56008CE46A /* Build configuration list for PBXProject "Pensando Gobierno" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C642BE2125311A56008CE46A;
+			productRefGroup = C642BE2B25311A56008CE46A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C642BE2925311A56008CE46A /* Pensando Gobierno */,
+				C642BE3A25311A5A008CE46A /* Pensando GobiernoTests */,
+				C642BE4525311A5A008CE46A /* Pensando GobiernoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C642BE2825311A56008CE46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C642BE3525311A5A008CE46A /* Preview Assets.xcassets in Resources */,
+				C642BE3225311A5A008CE46A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C642BE3925311A5A008CE46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C642BE4425311A5A008CE46A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C642BE2625311A56008CE46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C642BE3025311A56008CE46A /* ContentView.swift in Sources */,
+				C642BE2E25311A56008CE46A /* Pensando_GobiernoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C642BE3725311A5A008CE46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C642BE4025311A5A008CE46A /* Pensando_GobiernoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C642BE4225311A5A008CE46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C642BE4B25311A5A008CE46A /* Pensando_GobiernoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C642BE3D25311A5A008CE46A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C642BE2925311A56008CE46A /* Pensando Gobierno */;
+			targetProxy = C642BE3C25311A5A008CE46A /* PBXContainerItemProxy */;
+		};
+		C642BE4825311A5A008CE46A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C642BE2925311A56008CE46A /* Pensando Gobierno */;
+			targetProxy = C642BE4725311A5A008CE46A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C642BE4D25311A5A008CE46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C642BE4E25311A5A008CE46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C642BE5025311A5A008CE46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pensando Gobierno/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Pensando Gobierno/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Civics.Pensando-Gobierno";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C642BE5125311A5A008CE46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pensando Gobierno/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Pensando Gobierno/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Civics.Pensando-Gobierno";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C642BE5325311A5A008CE46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pensando GobiernoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Civics.Pensando-GobiernoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pensando Gobierno.app/Pensando Gobierno";
+			};
+			name = Debug;
+		};
+		C642BE5425311A5A008CE46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pensando GobiernoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Civics.Pensando-GobiernoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pensando Gobierno.app/Pensando Gobierno";
+			};
+			name = Release;
+		};
+		C642BE5625311A5A008CE46A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pensando GobiernoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Civics.Pensando-GobiernoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pensando Gobierno";
+			};
+			name = Debug;
+		};
+		C642BE5725311A5A008CE46A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pensando GobiernoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Civics.Pensando-GobiernoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pensando Gobierno";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C642BE2525311A56008CE46A /* Build configuration list for PBXProject "Pensando Gobierno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C642BE4D25311A5A008CE46A /* Debug */,
+				C642BE4E25311A5A008CE46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C642BE4F25311A5A008CE46A /* Build configuration list for PBXNativeTarget "Pensando Gobierno" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C642BE5025311A5A008CE46A /* Debug */,
+				C642BE5125311A5A008CE46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C642BE5225311A5A008CE46A /* Build configuration list for PBXNativeTarget "Pensando GobiernoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C642BE5325311A5A008CE46A /* Debug */,
+				C642BE5425311A5A008CE46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C642BE5525311A5A008CE46A /* Build configuration list for PBXNativeTarget "Pensando GobiernoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C642BE5625311A5A008CE46A /* Debug */,
+				C642BE5725311A5A008CE46A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C642BE2225311A56008CE46A /* Project object */;
+}
